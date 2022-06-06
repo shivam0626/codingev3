@@ -1,0 +1,28 @@
+#voucher_list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+#voucher_list img{
+    width: 100%;
+}
+.buy_voucher{
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    font-size: larger;
+    margin-top: 20px;
+    margin-right: 30px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+h3{
+    margin-left: 50px;
+}
